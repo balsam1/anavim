@@ -1,0 +1,106 @@
+﻿body 
+{
+    background-color:white;
+}
+
+#startPanel td
+{
+    width:200px;
+    font-family:Tahoma;
+    color:Navy;
+}
+
+#scorePanel
+{
+    direction:rtl;
+    font-family:Tahoma;
+    font-size:30px;
+    font-weight:bold;
+    direction:rtl;
+    text-align:center;
+    display:none;
+    padding-bottom:4px;
+    padding-top:4px;
+}
+
+#gameBoard img
+{
+     border: 2px solid #FFFFF0;  
+}
+
+.empty
+{
+     cursor: pointer;
+}
+
+.mouseInTextbox
+{
+    background-color: #FAFFBD;
+}
+
+.currentPlayer
+{
+    color:#EE0000; 
+    font-size:18px;  
+}
+
+.player
+{
+    color:#FFC0CB;   
+    font-size:18px;
+}
+
+.score
+{
+    color:Gray;   
+}
+
+.controls
+{
+    width:50px;  
+    position:absolute; 
+    display:none;
+    cursor:pointer;
+}
+
+#NextOne
+{
+    left:100px;
+    top:400px;
+}
+
+#MarkLine
+{
+    right:100px;
+    top:400px;
+}
+
+.popUp
+{
+     position:absolute;
+     font-family:Tahoma;
+     font-size:30px;
+     color:Blue;
+     font-weight:bold;
+}
+
+#theWinner
+{
+    direction:rtl;
+    color:Orange;
+    font-size:50px;
+    font-weight:bold;
+    position:absolute;
+    top:170px;
+    font-family:Arial;
+    z-index:2
+}
+
+#trophy img
+{
+    position:absolute;
+    width:100px;
+    top:250px;
+    left:450px;
+    z-index:1;
+}
